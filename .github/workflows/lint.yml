@@ -29,8 +29,8 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}-v1
       - run: npm install
       - run: npm run lint
-  commit-message:
-    name: commit message
+  commitlint:
+    name: commitlint
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
