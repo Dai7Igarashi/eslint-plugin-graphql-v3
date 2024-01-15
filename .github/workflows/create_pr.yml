@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
+          ref: release
       - name: Set git config
         run: |
           git config --global user.name "github-actions[bot]"
