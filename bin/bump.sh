@@ -11,7 +11,7 @@ function main() {
 
   "$git" checkout develop
   "$git" fetch origin develop
-  "$git" reset --hard origin develop
+  "$git" reset --hard origin/develop
   "$git" checkout -b release
   # lerna versionでtagを打つために、事前にoriginにbranchが必要なためpushする
   "$git" push origin release
