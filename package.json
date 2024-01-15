@@ -21,8 +21,11 @@
     "fix:eslint": "eslint --config eslint.config.js --fix",
     "fix:prettier": "prettier --write .",
     "bump:release": "./bin/bump.sh",
-    "versionup:dryrun": "lerna version --dry-run --create-release github --yes --no-private",
-    "versionup": "lerna version --create-release github --yes --no-private"
+    "versionup": "lerna version --conventional-commits --create-release github --yes --no-private",
+    "versionup:dryrun": "npm run versionup -- --dry-run",
+    "versionup:major": "npm run versionup -- major",
+    "versionup:minor": "npm run versionup -- minor",
+    "versionup:patch": "npm run versionup -- patch"
   },
   "author": "Daichi Igarashi<40178733+Dai7Igarashi@users.noreply.github.com>",
   "license": "MIT",
