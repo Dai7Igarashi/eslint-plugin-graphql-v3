@@ -31,4 +31,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Create Pull Request
         run: |
-          gh pr create --base master --head release --title "chore: release --body "publish to github packages!"
+          gh pr create --base master --head release --title "chore: release" --body "publish to github packages!"
