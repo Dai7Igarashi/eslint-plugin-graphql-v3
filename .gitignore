@@ -1,0 +1,10 @@
+# libs
+node_modules/
+
+# cache
+.turbo/
+.eslintcache
+.*log
+
+# misc
+.DS_Store

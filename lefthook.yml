@@ -1,0 +1,14 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint-eslint:
+      glob: '*.{js,ts}'
+      run: 'npm run lint:eslint {staged_files}'
+    lint-prettier:
+      glob: '*.{js,ts,json,md}'
+      run: 'npm run lint:prettier {staged_files}'
+
+commit-msg:
+  commands:
+    'lint conventional commit':
+      run: npx --no -- commitlint --edit "$1"
