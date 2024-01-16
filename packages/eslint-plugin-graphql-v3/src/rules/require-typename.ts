@@ -13,7 +13,7 @@ export const rule: GraphQLESLintRule = {
     docs: {
       category: 'Operations',
       description:
-        'Require __typename in all fragment and inline-fragment field.',
+        'Require __typename in all fragment and inline-fragment field',
       url: '',
       examples: [
         {
