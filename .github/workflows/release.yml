@@ -49,7 +49,8 @@ jobs:
       - name: Build
         run: npm run build
       - name: publish
-        run: npx lerna publish from-package --conventional-commits --create-release github --yes --no-private
+        # 本当はversionはlocalで実行するのでfrom-package付けたいが、Release Noteが自動生成されないので外す
+        run: npx lerna publish --conventional-commits --create-release github --yes --no-private
   after_release:
     name: create backfill pull request
     runs-on: ubuntu-latest
