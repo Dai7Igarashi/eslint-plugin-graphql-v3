@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/Dai7Igarashi/eslint-plugin-graphql-v3/compare/@dai7igarashi/eslint-plugin-graphql-v3@0.1.1...@dai7igarashi/eslint-plugin-graphql-v3@0.1.2) (2024-01-16)
+
+### Bug Fixes
+
+* **eslint-plugin-graphql-v3:** fix code after checkout release ([2cc51c7](https://github.com/Dai7Igarashi/eslint-plugin-graphql-v3/commit/2cc51c7d97d1dbe8d8b5a7f4191d182e9617bd65))
+
 ## [0.1.1](https://github.com/Dai7Igarashi/eslint-plugin-graphql-v3/compare/@dai7igarashi/eslint-plugin-graphql-v3@0.1.0...@dai7igarashi/eslint-plugin-graphql-v3@0.1.1) (2024-01-16)
 
 ### Bug Fixes
