@@ -9,7 +9,7 @@
     },
     "version": {
       "includeMergedTags": true,
-      "message": "chore: publish",
+      "message": "chore: lerna publish",
       "allowBranch": ["release", "main"]
     }
   }

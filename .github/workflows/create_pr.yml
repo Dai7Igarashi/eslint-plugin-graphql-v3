@@ -16,7 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
-      packages: write
       contents: write
       pull-requests: write
     env:
@@ -32,4 +31,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Create Pull Request
         run: |
-          gh pr create --base main --head release --title "chore: release" --body "publish to github packages!"
+          gh pr create --base main --head release --title "Release" --body "release to github packages."
